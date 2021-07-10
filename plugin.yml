@@ -1,0 +1,22 @@
+---
+# Prevent players from breaking bedrock on Creative mode
+# Copyright (C) 2021 KygekDev
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# he Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+name: AntiBedrock
+version: 1.0.0
+description: Prevent players from breaking bedrock on Creative mode
+author: KygekDev
+website: https://github.com/KygekDev/AntiBedrock
+api: 3.0.0
+main: KygekDev\AntiBedrock\AntiBedrock
+
+permissions:
+  antibedrock.bypass:
+    description: Bypass AntiBedrock plugin
+    default: op
+...

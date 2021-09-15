@@ -1,4 +1,4 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/KygekDev/AntiBedrock
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/kdpls/AntiBedrock
 build-by-default: true
 branches:
 - main

@@ -13,7 +13,7 @@ To prevent players from glitching the bedrock breaking cancelling mechanism in o
 ## Downloads
 
 - Stable version (Recommended for most users): [Latest](https://github.com/KygekDev/AntiBedrock/releases/latest) | [All releases](https://github.com/KygekDev/AntiBedrock/releases)
-- Build version (Only recommended for advanced users): [Poggit CI](https://poggit.pmmp.io/ci/KygekDev/AntiBedrock/~)
+- Build version (Only recommended for advanced users): [Poggit CI](https://poggit.pmmp.io/ci/kdpls/AntiBedrock/~)
 
 ## Info
 

@@ -12,7 +12,7 @@ version: 1.0.0
 description: Prevent players from breaking bedrock on Creative mode
 author: KygekDev
 website: https://github.com/KygekDev/AntiBedrock
-api: 3.0.0
+api: 4.0.0
 main: KygekDev\AntiBedrock\AntiBedrock
 
 permissions:

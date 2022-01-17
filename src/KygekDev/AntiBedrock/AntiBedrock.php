@@ -14,14 +14,14 @@ declare(strict_types=1);
 
 namespace KygekDev\AntiBedrock;
 
-use pocketmine\block\Block;
+use pocketmine\block\VanillaBlocks;
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 
 class AntiBedrock extends PluginBase implements Listener {
 
-    public function onEnable() {
+    public function onEnable() : void {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
@@ -31,10 +31,10 @@ class AntiBedrock extends PluginBase implements Listener {
         $player = $event->getPlayer();
         if ($player->hasPermission("antibedrock.bypass")) return;
 
-        if ($event->getBlock()->getId() === Block::BEDROCK) {
+        if ($event->getBlock()->isSameType(VanillaBlocks::BEDROCK())) {
             // Prevents player from glitching the bedrock breaking cancelling mechanism in order to pass through bedrock
-            $player->teleport($player->getPosition()->add(0, 2));
-            $event->setCancelled();
+            $player->teleport($player->getPosition()->add(0, 2, 0));
+            $event->cancel();
         }
     }
 

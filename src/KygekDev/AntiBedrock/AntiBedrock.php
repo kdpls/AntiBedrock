@@ -21,7 +21,7 @@ use pocketmine\plugin\PluginBase;
 
 class AntiBedrock extends PluginBase implements Listener {
 
-    public function onEnable() : void {
+    protected function onEnable() : void {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 

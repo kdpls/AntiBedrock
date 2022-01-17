@@ -1,5 +1,8 @@
 # AntiBedrock
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kdpls/AntiBedrock?style=flat-square)
+![GitHub all releases](https://img.shields.io/github/downloads/kdpls/AntiBedrock/total?label=downloads%40total&style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/kdpls/AntiBedrock/latest/total?style=flat-square)
 ![Discord](https://img.shields.io/discord/856281149503963166?style=flat-square)
 
 A PocketMine-MP plugin to prevent players from breaking bedrock on Creative mode.
@@ -12,8 +15,8 @@ To prevent players from glitching the bedrock breaking cancelling mechanism in o
 
 ## Downloads
 
-- Stable version (Recommended for most users): [Latest](https://github.com/KygekDev/AntiBedrock/releases/latest) | [All releases](https://github.com/KygekDev/AntiBedrock/releases)
-- Build version (Only recommended for advanced users): [Poggit CI](https://poggit.pmmp.io/ci/kdpls/AntiBedrock/~)
+- Stable version (Recommended): [Latest](https://github.com/KygekDev/AntiBedrock/releases/latest) | [All releases](https://github.com/KygekDev/AntiBedrock/releases)
+- Build version (For advanced users): [Poggit CI](https://poggit.pmmp.io/ci/kdpls/AntiBedrock/~)
 
 ## Info
 
